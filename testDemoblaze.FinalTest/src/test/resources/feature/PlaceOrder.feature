@@ -11,14 +11,14 @@ Feature: Verify Place order function works properly
 		And click Cart button
 		When click Place order button
 		And confirm total price before order
-		|Total: 1870|
+		|Total: 1830|
 		And input name, credit card to PO
 		|abc|123|
 		And submit order
 		Then confirm the order information correct with "<message>", "<amount>", "<card>", "<name>"
 		Examples:
 		|message											|amount					|card							|name			|
-		|Thank you for your purchase!	|Amount: 1870 USD|Card Number: 123	|Name: abc|
+		|Thank you for your purchase!	|Amount: 1830 USD|Card Number: 123	|Name: abc|
 		
 		
 	Scenario: Verify user can place order with one product in cart

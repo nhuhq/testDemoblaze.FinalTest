@@ -1,6 +1,6 @@
 Feature: Verify product information is displayed correctly on main page
 	Scenario: Verify product infomation is displayed correctly on first page of main page
-		Given I will access the website
+		Given access the website
 		Then The website displays product <order> information correct with "<name>","<price>","<description>"
 	Examples: 
 		|order|name								|price|description|
@@ -15,7 +15,7 @@ Feature: Verify product information is displayed correctly on main page
 		|9		|Sony vaio i7				|$790|REVIEW Sony is so confident that the VAIO S is a superior ultraportable laptop that the company proudly compares the notebook to Apple's 13-inch MacBook Pro. And in a lot of ways this notebook is better, thanks to a lighter weight, higher-resolution display, more storage space, and a Blu-ray drive.|
 		
 		Scenario: Verify product infomation is displayed correctly on second page of main page
-		Given I will access the website
+		Given access the website
 		When navigate to the next page
 		Then The website displays product <order> information correct with "<name>","<price>","<description>"
 		Examples: 

@@ -27,7 +27,7 @@ Feature: Verify log in function works properly
 		Then confirm the url is "<url>"
 		Examples:
 		|number|url|
-		|3|hhttps://www.demoblaze.com/index.html|
+		|3|https://www.demoblaze.com/index.html|
 	
 	Scenario: Verify user can be back to homepage when clicking X button
 		Given click X button <number>
