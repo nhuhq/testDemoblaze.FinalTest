@@ -13,7 +13,7 @@ Feature: Verify sign up function works properly
 		|a				|					|Please fill out Username and Password.|
 		|hqntest12|					|Please fill out Username and Password.|
 		|a				|abc			|This user already exist.|
-		|hqntest11|abcd			|Sign up successful.|
+		|hqntest1	|abcd			|Sign up successful.|
 	
 	Scenario: Verify user can be back to homepage when clicking Close button
 		Given click Close button <number>

@@ -50,11 +50,13 @@ public class DemoBlazeScenarioStep extends ScenarioSteps {
 	@Step
 	public void nextPage() {
 		mainPage.getNextButton().click();
+		;
 	}
 
 	@Step
 	public void home() {
 		mainPage.getHomeButton().click();
+		;
 	}
 
 	@Step
