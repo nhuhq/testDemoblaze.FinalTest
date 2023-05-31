@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features = "src/test/resources/feature", glue = {"step"})
-public class RunTestDemoblaze {
+@CucumberOptions(features = "src/test/resources/feature/Contact.feature", glue = {"step"})
+public class ContactTest {
 
 }
